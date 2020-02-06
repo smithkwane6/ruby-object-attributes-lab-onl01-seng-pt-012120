@@ -1,4 +1,9 @@
 class Dog
+  def name=(Fido)
+    @this_dogs_name = Fido
 end
 
-fido = Dog.new
+  def name
+    @this_dogs_name
+  end
+end
